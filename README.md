@@ -15,6 +15,8 @@ Aşağıdaki konular sırayla işlenmiştir:
 | `4-arrays.go` | Diziler |
 | `5-slice.go` | Slices |
 | `6-loops.go` | Döngüler |
+| `7-lesson-practices-1.go` | Gelinen Noktaya Kadar Ders Tekrarı |
+| `8-functions.go` | Fonksiyonlar |
 | `main.go` | Ana dosya / genel denemeler |
 
 > Her dosya içinde ilgili konunun örnek kodları ve çıktıları yer almaktadır.
@@ -40,7 +42,7 @@ Aşağıdaki konular sırayla işlenmiştir:
 
 ## 📌 Planlanan Geliştirmeler
 
-- [ ] Fonksiyonlar (`functions`)
+- [*] Fonksiyonlar (`functions`)
 - [ ] Map ve Struct yapıları
 - [ ] Interface'ler
 - [ ] Goroutines ve Channels (Concurrency)
