@@ -41,10 +41,13 @@ Aşağıdaki konular sırayla işlenmiştir:
 - İleride ileri seviye konuları da ekleyerek kapsamı genişletmek
 
 ## 📌 Planlanan Geliştirmeler
-
-- [*] Fonksiyonlar (`functions`)
+- [ ] Pointerlar
 - [ ] Map ve Struct yapıları
-- [ ] Interface'ler
+- [ ] Receiver
+- [ ] User Input
+- [ ] Switch
+- [ ] File Save
+- [ ] Pointerlar
 - [ ] Goroutines ve Channels (Concurrency)
 - [ ] Error Handling
 
