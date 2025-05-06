@@ -47,7 +47,7 @@ Aşağıdaki konular sırayla işlenmiştir:
 - [ ] User Input
 - [ ] Switch
 - [ ] File Save
-- [ ] Pointerlar
+- [ ] Interfaces
 - [ ] Goroutines ve Channels (Concurrency)
 - [ ] Error Handling
 
