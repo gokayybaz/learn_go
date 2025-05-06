@@ -1,8 +1,8 @@
-package main
+package lessons
 
 import "fmt"
 
-func functions() {
+func Functions() {
 	fmt.Println("---- Functions (Fonksiyonlar) ----")
 
 	// * Fonksiyonlar belirli işleri yapan yapılardır. Fonksiyonlar programlamada tekrar eden işleri engellemek ve modülerliği sağlamak için sıkça kullanılır.

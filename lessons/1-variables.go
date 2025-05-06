@@ -1,8 +1,8 @@
-package main
+package lessons
 
 import "fmt"
 
-func variables() {
+func Variables() {
 	fmt.Println("---- Variables (Değişkenler) ----")
 
 	var name string = "Gökay"

@@ -1,8 +1,8 @@
-package main
+package lessons
 
 import "fmt"
 
-func printAndFormattedStrings() {
+func PrintAndFormattedStrings() {
 	fmt.Println("---- Konsola Yazdırma & String Formatlama ----")
 
 	name := "Gökay"
@@ -35,6 +35,6 @@ func printAndFormattedStrings() {
 
 	// Formatlanmış değeri değişkene atama işlemi
 	price := 895.89
-	var nameFormatted = fmt.Sprintf("Bu ürünün fiyatı: %0.2f₺ \n", price)
+	var nameFormatted = fmt.Sprintf("Bu ürünün fiyatı: %0.2f₺", price)
 	fmt.Println(nameFormatted)
 }

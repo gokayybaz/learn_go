@@ -1,8 +1,8 @@
-package main
+package lessons
 
 import "fmt"
 
-func conditions() {
+func Conditions() {
 
 	fmt.Println("---- Conditions (Koşullar) ----")
 

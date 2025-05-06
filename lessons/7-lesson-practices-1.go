@@ -1,47 +1,48 @@
-package main
+package lessons
 
 import "fmt"
 
-func lessonRepracticesOne() {
-	fmt.Println("Hello World!")
-    // Değişkenler
+func LessonRepracticesOne() {
+	fmt.Println("---- LessonRepracticesOne ----")
+
+	// Değişkenler
 	var name string = "Gökay"
 	var surName = "Baz"
 	age := 21
 	userName := "gokayybaz"
 	salary := 24578.67
 	workExperience := 24
-    
+
 	// Print (Konsola Yazdırma) ve Çeşitleri
 	fmt.Print("Kullanıcı: ", name, " ")
 	fmt.Print(surName, "\n")
-    
+
 	fmt.Println("Kullanıcı Yaşı:", age)
 
 	age = age + 1
-	
+
 	// Tip Dönüşümü Yapma
-	fmt.Println("Toplam Aldığı Para:", salary * float64(workExperience))
+	fmt.Println("Toplam Aldığı Para:", salary*float64(workExperience))
 
 	fmt.Println("* Güncellenmiş * Kullanıcı Yaşı:", age)
-    // String Formatlama
+	// String Formatlama
 	userNameText := fmt.Sprintf("Kullanıcı Adı: %v ", userName)
 	fmt.Println(userNameText)
 	fmt.Printf("Kullanıcı Adı Veri Tipi: %T \n", userName)
 
 	fmt.Println()
 
-    // Kontrol Yapıları
-	fmt.Println("* Kişi 18 yaşından küçük mü?" , age < 18)
+	// Kontrol Yapıları
+	fmt.Println("* Kişi 18 yaşından küçük mü?", age < 18)
 	fmt.Println("* Kişi 18 yaşında mı?", age == 18)
 	fmt.Println("* Kişi 18 yaşından büyük mü?", age > 18)
-    
+
 	// Koşul Yapıları
 	if age < 18 {
 		fmt.Println("- Bu kişi iş yerinde çalıştırılamaz!")
-	}else if age == 18 {
+	} else if age == 18 {
 		fmt.Println("- Bu kişi bundan sonra iş yerinde çalıştırılabilir!")
-	}else {
+	} else {
 		fmt.Println("- Bu kişi iş yerinde çalıştırılabilir!!")
 	}
 
@@ -63,24 +64,24 @@ func lessonRepracticesOne() {
 	default:
 		fmt.Println("Seviye bilinmiyor!!!")
 	}
-    
+
 	// Diziler
-    var personalProjects [4]string = [4]string{
-      "C# ile MVC kullanarak Blog Sitesi",
-	  "C# ile WEB API kullanarak api",
-	  "Go ile TCP Handler",
-	  "React ile Food App",
+	var personalProjects [4]string = [4]string{
+		"C# ile MVC kullanarak Blog Sitesi",
+		"C# ile WEB API kullanarak api",
+		"Go ile TCP Handler",
+		"React ile Food App",
 	}
 
 	fmt.Println(personalProjects)
-    
+
 	// Dizi Elemanlarına Erişme ve Manipüle Etme
 	fmt.Println(personalProjects[0])
 	personalProjects[0] = "Go ile MVC kullanarak Blog Sitesi"
 	fmt.Println(personalProjects[0])
-    
+
 	// Slice
-	var personalAbilities = []string {
+	var personalAbilities = []string{
 		"C#",
 		"Go",
 		"ReactJS",
@@ -100,10 +101,10 @@ func lessonRepracticesOne() {
 	fmt.Println(personalAbilities)
 
 	fmt.Println()
-    
+
 	// String, Array ve Slice Uzunluklarını Öğrenme
-	fmt.Println("Kullanıcı adı kelime uzunluğu:",len(userName))
-	fmt.Println("Kullanıcı projeleri dizi uzunluğu:",len(personalProjects))
-	fmt.Println("Kullanıcı yetenekleri slice uzunluğu:",len(personalAbilities))
+	fmt.Println("Kullanıcı adı kelime uzunluğu:", len(userName))
+	fmt.Println("Kullanıcı projeleri dizi uzunluğu:", len(personalProjects))
+	fmt.Println("Kullanıcı yetenekleri slice uzunluğu:", len(personalAbilities))
 
 }

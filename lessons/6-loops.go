@@ -1,8 +1,8 @@
-package main
+package lessons
 
 import "fmt"
 
-func loops() {
+func Loops() {
 	fmt.Println("---- Loops (Döngüler) ----")
 	// Döngüler tekrarlanan işlemleri programlamada kolayca yapmak için kullanılan yapılardır.
 

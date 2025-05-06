@@ -1,8 +1,8 @@
-package main
+package lessons
 
 import "fmt"
 
-func arrays() {
+func Arrays() {
 	fmt.Println("---- Arrays (Diziler) ----")
 
 	// Arrays

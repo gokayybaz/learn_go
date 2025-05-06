@@ -1,8 +1,8 @@
-package main
+package lessons
 
 import "fmt"
 
-func slice() {
+func Slice() {
 	fmt.Println("---- Slice (Uzunluğu Değiştirilebilir Diziler) ----")
 
 	// Slice ile Array'ler birbiri ile aynı işlemi görürler fakat Slice'larda dizinin boyutunu belirtmemize gerek yoktur, dizi boyutu değişebilir.
